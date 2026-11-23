@@ -92,8 +92,6 @@ $$
 $$
 
 
-### Страница 3
-
 $$
 \int \frac{df}{\sin \dfrac{f}{2}} = \frac{2}{\sqrt{1 - v^2}} \int d\xi
 $$
