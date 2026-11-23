@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 V = 0.6
-xi_0 = 0.0
+c = 0.0
 gamma = 1.0 / np.sqrt(1 - V**2)
 
 x = np.linspace(-15, 25, 500)
 t_values = np.linspace(0, 20, 150)
 
 def u_analytical(x, t):
-    return 4 * np.arctan(np.exp(gamma * (x - V * t - xi_0)))
+    return 4 * np.arctan(np.exp(gamma * (x - V * t - c)))
 
 fig, ax = plt.subplots(figsize=(8, 5))
 line, = ax.plot([], [], lw=2, color='black', label=f'Кинк (V = {V})')
