@@ -1,4 +1,4 @@
-#Аналитическое решение
+## Аналитическое решение
 
 $$
 \frac{\partial^2 u(x, t)}{\partial t^2} - \frac{\partial^2 u(x, t)}{\partial x^2} + \sin u(x, t) = 0
@@ -92,35 +92,37 @@ $$
 $$
 
 
+### Страница 3
+
 $$
 \int \frac{df}{\sin \dfrac{f}{2}} = \frac{2}{\sqrt{1 - v^2}} \int d\xi
 $$
 
 $$
-2\ln\left(\operatorname{tg}\frac{f}{4}\right) = \frac{2\xi}{\sqrt{1 - v^2}} + C
+2\ln\left(\mathrm{tg}\,\frac{f}{4}\right) = \frac{2\xi}{\sqrt{1 - v^2}} + C
 $$
 
 $$
-\ln\left(\operatorname{tg}\frac{f}{4}\right) = \frac{\xi}{\sqrt{1 - v^2}} + C
+\ln\left(\mathrm{tg}\,\frac{f}{4}\right) = \frac{\xi}{\sqrt{1 - v^2}} + C
 $$
 
 $$
-\operatorname{tg}\frac{f}{4} = C e^{\frac{\xi}{\sqrt{1 - v^2}}}
+\mathrm{tg}\,\frac{f}{4} = C e^{\frac{\xi}{\sqrt{1 - v^2}}}
 $$
 
 $$
-\frac{f}{4} = \operatorname{arctg}\left(C e^{\frac{\xi}{\sqrt{1 - v^2}}}\right)
+\frac{f}{4} = \mathrm{arctg}\left(C e^{\frac{\xi}{\sqrt{1 - v^2}}}\right)
 $$
 
 $$
-f = 4\operatorname{arctg}\left(C \cdot e^{\frac{\xi}{\sqrt{1 - v^2}}}\right)
+f = 4\,\mathrm{arctg}\left(C \cdot e^{\frac{\xi}{\sqrt{1 - v^2}}}\right)
 $$
 
 $$
-f(x - vt) = 4\operatorname{arctg}\left(C \cdot e^{\frac{x - vt}{\sqrt{1 - v^2}}}\right)
+f(x - vt) = 4\,\mathrm{arctg}\left(C \cdot e^{\frac{x - vt}{\sqrt{1 - v^2}}}\right)
 $$
 
 $$
-u(x, t) = 4\operatorname{arctg}\left(C e^{\frac{x - vt}{\sqrt{1 - v^2}}}\right)
+u(x, t) = 4\,\mathrm{arctg}\left(C e^{\frac{x - vt}{\sqrt{1 - v^2}}}\right)
 $$
-```[cite: 5, 6, 7]
+```[cite: 7]
