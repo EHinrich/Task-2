@@ -97,15 +97,15 @@ $$
 $$
 
 $$
-2\ln\left(\mathrm{tg}\,\frac{f}{4}\right) = \frac{2\xi}{\sqrt{1 - v^2}} + C
+2\ln\left(\mathrm{tg}\\frac{f}{4}\right) = \frac{2\xi}{\sqrt{1 - v^2}} + C
 $$
 
 $$
-\ln\left(\mathrm{tg}\,\frac{f}{4}\right) = \frac{\xi}{\sqrt{1 - v^2}} + C
+\ln\left(\mathrm{tg}\\frac{f}{4}\right) = \frac{\xi}{\sqrt{1 - v^2}} + C
 $$
 
 $$
-\mathrm{tg}\,\frac{f}{4} = C e^{\frac{\xi}{\sqrt{1 - v^2}}}
+\mathrm{tg}\\frac{f}{4} = C e^{\frac{\xi}{\sqrt{1 - v^2}}}
 $$
 
 $$
@@ -113,14 +113,14 @@ $$
 $$
 
 $$
-f = 4\,\mathrm{arctg}\left(C \cdot e^{\frac{\xi}{\sqrt{1 - v^2}}}\right)
+f = 4\\mathrm{arctg}\left(C \cdot e^{\frac{\xi}{\sqrt{1 - v^2}}}\right)
 $$
 
 $$
-f(x - vt) = 4\,\mathrm{arctg}\left(C \cdot e^{\frac{x - vt}{\sqrt{1 - v^2}}}\right)
+f(x - vt) = 4\\mathrm{arctg}\left(C \cdot e^{\frac{x - vt}{\sqrt{1 - v^2}}}\right)
 $$
 
 $$
-u(x, t) = 4\,\mathrm{arctg}\left(C e^{\frac{x - vt}{\sqrt{1 - v^2}}}\right)
+u(x, t) = 4\\mathrm{arctg}\left(C e^{\frac{x - vt}{\sqrt{1 - v^2}}}\right)
 $$
 ```[cite: 7]
