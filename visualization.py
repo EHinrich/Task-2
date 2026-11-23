@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-# Параметры волны (обязательно |V| < 1)
 V = 0.6
 xi_0 = 0.0
 gamma = 1.0 / np.sqrt(1 - V**2)
